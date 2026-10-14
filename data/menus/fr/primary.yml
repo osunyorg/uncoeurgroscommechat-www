@@ -37,9 +37,9 @@ items:
   descendants_targets: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
-- title: Projets
-  slug: projets
-  target: "/projets/"
+- title: Chats
+  slug: chats
+  target: "/chats/"
   kind: page
   new_tab: false
   children: []
