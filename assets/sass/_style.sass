@@ -1,5 +1,8 @@
 .page__home
     .hero--with-image
+        img
+            border-radius: 0
+
         @include media-breakpoint-up(desktop)
             .content
                 flex-direction: column
@@ -26,7 +29,6 @@
                         top: 0
                         z-index: 1
                     img
-                        border-radius: 0
                         aspect-ratio: 16/9
                         object-fit: cover
                         max-height: 80vh
@@ -37,11 +39,20 @@ img
     border-radius: 15px
 
 .projects--grid
-    @include in-page-without-sidebar
-        @include grid(4, desktop)
+    .project
         img
             aspect-ratio: 1
             object-fit: cover
+
+    @include in-page-without-sidebar
+        @include grid(4, desktop)
+
+    @include media-breakpoint-down(desktop)
+        .project
+            .media
+                margin-left: 0
+                margin-right: 0
+    
 
 .project,
 .post
