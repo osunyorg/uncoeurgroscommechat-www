@@ -1,7 +1,37 @@
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 13
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: call_to_action
+    title: >-
+      Faire un don
+    slug: >-
+      faire-un-don
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Faire un don
+        heading: 2
+      description: >-
+        <p>Il n'y a pas de petits dons, chacun fait en fonction de son budget alors n'hésitez pas car chaque don compte pour notre refuge. Vos dons sont déductibles à hauteur de 66% de vos impôts !</p>
+    data:
+      layout: no_background
+      text: >-
+        <p>Il n'y a pas de petits dons, chacun fait en fonction de son budget alors n'hésitez pas car chaque don compte pour notre refuge. Vos dons sont déductibles à hauteur de 66% de vos impôts !</p>
+      buttons:
+        - 
+          title: >-
+            Paypal
+          url: >-
+            https://www.paypal.com/donate?token=dYzLNEcm-B_Xvw-zYbCDFCHl2t5Wolrab6gAdBGTkz6UZPCda2HVZO64shzrUPfJuzcXomnaRV6t_jpR
+          target_blank: true
+
+
 

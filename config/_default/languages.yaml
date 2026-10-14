@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            uncoeurgroscommechats
+          value: >-
+            https://www.facebook.com/uncoeurgroscommechats
+        instagram:
+          label: >-
+            uncoeurgroscommechats
+          value: >-
+            https://instagram.com/uncoeurgroscommechats
 
   taxonomies:
     administrator: administrators
