@@ -1,0 +1,62 @@
+.page__home
+    .hero--with-image
+        @include media-breakpoint-up(desktop)
+            .content
+                flex-direction: column
+                padding-top: 0
+                .hero-text
+                    bottom: calc(#{$spacing-5} + var(--grid-gutter))
+                    color: var(--color-background)
+                    position: absolute
+                    z-index: 2
+                figure
+                    margin-left: var(--grid-gutter-negative)
+                    margin-right: var(--grid-gutter-negative)
+                    order: -1
+                    position: relative
+                    width: calc(100% - calc(var(--grid-gutter-negative) * 2))
+                    &::after
+                        background: linear-gradient(90deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .2) 50%, transparent)
+                        bottom: 0
+                        content: ''
+                        display: block
+                        left: 0
+                        position: absolute
+                        right: 0
+                        top: 0
+                        z-index: 1
+                    img
+                        border-radius: 0
+                        aspect-ratio: 16/9
+                        object-fit: cover
+                        max-height: 80vh
+                    figcaption
+                        margin-right: var(--grid-gutter)
+
+img
+    border-radius: 15px
+
+.projects--grid
+    @include in-page-without-sidebar
+        @include grid(4, desktop)
+        img
+            aspect-ratio: 1
+            object-fit: cover
+
+.project,
+.post
+    [class$="-categories"] 
+        row-gap: $spacing-2
+        a
+            background: var(--color-accent)
+            color: var(--color-text)
+            padding: space() space(3)
+            border-radius: 15px
+
+// BLOCKS
+.block-chapter
+    @include in-page-without-sidebar
+        .chapter
+            .text,
+            figure
+                width: columns(6)

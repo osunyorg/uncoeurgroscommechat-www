@@ -1,4 +1,6 @@
-theme: osuny
+theme: 
+  - osuny
+  - osuny-plugin-centered-footer
 _merge: deep
 params:
   summary:
@@ -6,8 +8,13 @@ params:
   search:
     active: true
   logo:
-    header: ''
-    footer: ''
+    header: '/assets/images/logo-2.png'
+    footer: '/assets/images/logo.png'
   home:
     head:
       title: site
+
+  image_sizes:
+    blocks:
+      chapter:
+        desktop: 864
