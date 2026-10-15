@@ -84,3 +84,9 @@ img
             .text,
             figure
                 width: columns(6)
+
+.block-links:where(:not(.block-links--cards)) 
+    li
+        .link-content
+            a
+                @include h4

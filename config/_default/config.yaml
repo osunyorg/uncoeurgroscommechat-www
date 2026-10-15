@@ -24,3 +24,8 @@ params:
     blocks:
       chapter:
         desktop: 864
+      links:
+        icons: 
+          mobile:   60
+          tablet:   60
+          desktop:  60
