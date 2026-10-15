@@ -15,12 +15,12 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/chats/2026-becca/index.html"
-to = "/nos-chats-et-chatons-a-ladoption/2026-becca/"
-
-[[redirects]]
 from = "/projets/index.html"
 to = "/chats/"
+
+[[redirects]]
+from = "/nos-chats-et-chatons-a-ladoption/2026-becca/index.html"
+to = "/chats/2026-becca/"
 
 [[redirects]]
 from = "/nos-chats-et-chatons-a-ladoption/index.html"
