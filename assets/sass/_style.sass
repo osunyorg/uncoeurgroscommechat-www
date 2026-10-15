@@ -42,6 +42,10 @@
             --btn-padding: #{$spacing-2} #{$spacing-3}
             --btn-border-radius: #{$spacing-4}
 
+    .block-class-no-margin-top
+        .block-content
+            padding-top: 0 !important
+
 img
     border-radius: 15px
 
@@ -70,7 +74,7 @@ img
 .project,
 .post
     [class$="-categories"] 
-        row-gap: $spacing-2
+        row-gap: space(4)
         a
             background: var(--color-accent)
             color: var(--color-text)
