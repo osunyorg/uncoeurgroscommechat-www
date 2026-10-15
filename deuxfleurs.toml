@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/chats/index.html"
+to = "/nos-chats-et-chatons-a-ladoption/"
+
+[[redirects]]
 from = "/projets/index.html"
-to = "/chats/"
+to = "/nos-chats-et-chatons-a-ladoption/"
 
