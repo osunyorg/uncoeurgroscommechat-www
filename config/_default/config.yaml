@@ -14,6 +14,12 @@ params:
     head:
       title: site
 
+  projects:
+    single:
+      meta:
+        options:
+          year: false
+
   image_sizes:
     blocks:
       chapter:
