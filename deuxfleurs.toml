@@ -19,10 +19,10 @@ from = "/chats/2026-becca/index.html"
 to = "/nos-chats-et-chatons-a-ladoption/2026-becca/"
 
 [[redirects]]
-from = "/chats/index.html"
-to = "/nos-chats-et-chatons-a-ladoption/"
+from = "/projets/index.html"
+to = "/chats/"
 
 [[redirects]]
-from = "/projets/index.html"
-to = "/nos-chats-et-chatons-a-ladoption/"
+from = "/nos-chats-et-chatons-a-ladoption/index.html"
+to = "/chats/"
 
